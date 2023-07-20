@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:layout_gravity="center"
+    tools:context=".Teacher_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="30dp">
+
+        <Button
+            android:id="@+id/TakeAtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TAKE ATTENDANCE" />
+
+        <Button
+            android:id="@+id/ViewAtt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIEW STUDENTS ATTENDANCE" />
+
+        <Button
+            android:id="@+id/UpdateCls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UPDATE CLASS INFO" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
